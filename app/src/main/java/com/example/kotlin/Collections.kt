@@ -40,5 +40,9 @@ fun ContohSet(){
     println()
     println("=== Set ===")
 
+    //set read-only
+    val readOnlyAbjad = setOf("A","B","C")
+    println(readOnlyAbjad)
+
 
 }
