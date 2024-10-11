@@ -51,5 +51,9 @@ fun ContohSet(){
     //menggunakan data ke dalam set muteable
     shape.add("rectangle")
 
+    //menghapus data dari set mutable
+    shape.remove("circle")
+    println(shape)
+
 
 }
