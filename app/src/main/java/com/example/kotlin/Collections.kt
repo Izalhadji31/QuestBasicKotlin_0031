@@ -44,5 +44,9 @@ fun ContohSet(){
     val readOnlyAbjad = setOf("A","B","C")
     println(readOnlyAbjad)
 
+    //set muteable
+    val shape: MutableSet<String> = mutableSetOf("circle","square","triangle")
+    println(shape)
+
 
 }
