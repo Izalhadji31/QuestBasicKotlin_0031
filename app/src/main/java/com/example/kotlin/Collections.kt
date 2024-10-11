@@ -48,5 +48,8 @@ fun ContohSet(){
     val shape: MutableSet<String> = mutableSetOf("circle","square","triangle")
     println(shape)
 
+    //menggunakan data ke dalam set muteable
+    shape.add("rectangle")
+
 
 }
