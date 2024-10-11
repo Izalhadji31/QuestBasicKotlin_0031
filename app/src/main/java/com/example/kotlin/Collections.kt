@@ -64,10 +64,16 @@ fun ContohSet(){
 //map bersifat unordered : artinya data yang di masukkan tidak memiliki posisi tertentu
 //map bersifat mutable dan read only : artinya data yang dimasukkan dapat di ubah dan tidak dapat di ubah
 //map read only menggunakan mapof
-//map mutable menggunakan mutableof
+//map mutable menggunakan mutableMapOf
 
 
 fun ContohMap() {
     println()
     println("=== Map ===")
+    //map read only
+    val readOnlyShape: Map<String,Int> = mapOf("circle" to 1,"square" to 2,"triangle" to 3)
+    println(readOnlyShape)
+    //map mutablle
+    val shape: MutableMap<String, Int> = mutableMapOf("circle" to 1,"square" to 2,"triangle" to 3)
+    println(shape)
 }
