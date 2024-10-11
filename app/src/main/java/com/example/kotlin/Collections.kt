@@ -29,3 +29,16 @@ fun ContohList() {
     val shapeLocked: List<String> = shape
     println(shapeLocked)
 }
+
+//set adalah kumpulan data yang tidak memiliki posisi atau urutan tertentu dan hanya menyimpan data unik tidak ad duplikasi
+//set berisifat unordered artinya data yang dimasukkan tidak memiliki posisi tertentu
+//set bersifat muteable dan read only ,artinya data yang di masukkan dapat diubah dan tidak dapat diubah
+//set read only menggunakan setOf
+//set muteable menggunakan muteablesetof
+
+fun ContohSet(){
+    println()
+    println("=== Set ===")
+
+
+}
