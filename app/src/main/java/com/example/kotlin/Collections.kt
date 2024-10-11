@@ -70,10 +70,25 @@ fun ContohSet(){
 fun ContohMap() {
     println()
     println("=== Map ===")
+
     //map read only
     val readOnlyShape: Map<String,Int> = mapOf("circle" to 1,"square" to 2,"triangle" to 3)
     println(readOnlyShape)
+
     //map mutablle
     val shape: MutableMap<String, Int> = mutableMapOf("circle" to 1,"square" to 2,"triangle" to 3)
     println(shape)
+
+    //menambahkan data ke dalam map muteable
+    shape["rectangle"] = 4
+    println(shape)
+
+    //menghapus data dari map muteable
+    shape.remove("circle")
+    println(shape)
+
+    //mengubah data di dalam map mutable
+    shape["square"] = 5
+    println(shape)
+
 }
